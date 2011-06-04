@@ -1,0 +1,133 @@
+
+
+@import "content.css";
+
+
+body {
+
+  margin-top: 0;
+
+}
+
+
+#SITE-primary-layout {
+
+  width: 600px;
+
+  margin: 0.5em auto;
+
+}
+
+
+#SITE-primary-nav {
+
+  font-size: 1em;
+
+  color: #777700;
+
+  text-transform: uppercase;
+
+  margin: 0 0 1em;
+
+  padding: 0;
+
+}
+
+
+#SITE-primary-nav .SITE-nav-items {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+#SITE-primary-nav .SITE-nav-item {
+
+   display: inline;
+
+   margin-right: 1em;
+
+   padding: 0;
+
+}
+
+
+#SITE-primary-nav .SITE-nav-link {
+
+  color: #772244;
+
+}
+
+
+#SITE-primary-nav .SITE-nav-link:hover {
+
+  color: #FF2244;
+
+}
+
+
+#SITE-primary-layout > hgroup {
+
+  margin: 0 0 3em;
+
+}
+
+
+#SITE-primary-layout > hgroup h1 {
+
+  margin: 0;
+
+  color: #DD2244;
+
+}
+
+
+#SITE-primary-layout > hgroup h1 .gems {
+
+  font-weight: normal;
+
+  color: #AA2244;
+
+}
+
+
+#SITE-primary-layout > hgroup h1 .version {
+
+  font-size: 0.6em;
+
+  font-weight: normal;
+
+  color: #FF2288;
+
+  vertical-align: super;
+
+  margin: 0 0 0 -0.4em
+
+}
+
+
+#SITE-primary-layout > hgroup h2 {
+
+  margin: 0;
+
+  color: #882244;
+
+  font-weight: normal;
+
+}
+
+
+#SITE-legal {
+
+  text-align: right;
+
+  font-size: 0.8em;
+
+  color: #444444;
+
+  margin: 3em 0;
+
+}
+
