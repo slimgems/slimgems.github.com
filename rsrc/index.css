@@ -1,0 +1,106 @@
+
+
+.footnote-link {
+
+  font-size: 0.9em;
+
+}
+
+
+hgroup .footnote-link,
+h1 .footnote-link {
+
+  font-size: 0.6em;
+
+}
+
+
+em.differentiator {
+
+  color: #FF0044;
+
+  font-weight: bold;
+
+  font-style: normal;
+
+}
+
+
+#SITE-primary-content > section,
+#SITE-primary-content > .section {
+
+  margin: 0 0 1em;
+
+}
+
+
+#intro .rubygems-last-stable-version {
+
+  color: #FFFFFF;
+
+  background: #220000;
+
+ }
+
+
+#goals {
+
+  margin: 0.5em 0 1em 3em;
+
+  padding: 0;
+
+  color: #444444;
+
+}
+
+
+#goals .goal {
+
+  margin: 0 0 1.5em;
+
+}
+
+
+#section-install pre {
+
+  font-family: "Monaco", "Consolas", monospace;
+
+  margin-top: 0.25em;
+
+  background: #222222;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 2em;
+
+  padding: 0.1em;
+
+}
+
+
+#section-install pre code {
+
+  font-family: inherit;
+
+}
+
+
+#section-notes {
+
+  font-size: 0.8em;
+
+}
+
+
+#section-notes a[href] {
+
+  color: #000000;
+
+  background-color: #882200;
+
+  color: #FFFFFF;
+
+}
+

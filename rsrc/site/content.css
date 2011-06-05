@@ -1,0 +1,60 @@
+
+
+section, nav, article, hgroup {
+
+  display: block;
+
+}
+
+
+a:link,
+a:visited {
+
+  color: #EE2288;
+
+  text-decoration: none;
+
+}
+
+
+a:hover {
+
+  color: #FF2288;
+
+  background: #222222;
+
+}
+
+
+body {
+
+  background-color: #EEEEEE;
+
+  color: #222222;
+
+  font-family: "Helvetica", "Myriad Pro", "Arial", sans-serif;
+
+  font-size: 1em;
+
+}
+
+
+#SITE-primary-content {
+
+  line-height: 1.4;
+
+}
+
+
+#SITE-primary-content h1 {
+
+  margin: 0;
+
+  color: #DD2244;
+
+  font-weight: normal;
+
+  font-size: 1.2em;
+
+}
+
