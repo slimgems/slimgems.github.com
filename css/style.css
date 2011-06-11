@@ -41,6 +41,7 @@ html { overflow-y: scroll; }
 a:hover, a:active { outline: none; }
 ul, ol { margin-left: 2em; }
 ol { list-style-type: decimal; }
+ul { list-style-type: disc; }
 nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
 small { font-size: 85%; }
 strong, th { font-weight: bold; }
@@ -58,7 +59,7 @@ input[type="checkbox"] { vertical-align: bottom; }
 .ie6 input { vertical-align: text-bottom; }
 label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
 button, input, select, textarea { margin: 0; }
-input:valid, textarea:valid   {  }
+input:valid, textarea:valid { }
 input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
 .no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
 
@@ -148,7 +149,7 @@ a:hover { color: #036; }
 }
 
 body {
-  background: #36292b url(/img/back.jpg) no-repeat top center;
+  background: #36292b url("/img/back.jpg") top center no-repeat;
 }
 #container {
   width: 960px;
@@ -157,30 +158,28 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: 0 0 2px 1px rgba(255, 255, 255, .75);
-  -moz-box-shadow: 0 0 2px 1px rgba(255, 255, 255, .75);
-  -webkit-box-shadow: 0 0 2px 1px rgba(255, 255, 255, .75);
+  border: 1px solid #fff;
 }
-header {
+.header {
   background: #36292b;
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
-header ul{
+.header ul{
   list-style: none;
   display: block;
   padding: 24px;
   margin:0;
 }
-header ul li{
+.header ul li{
   display: inline-block;
   margin-right: 15px;
 }
-header a, header a:visited{
+.header a, header a:visited{
   color: #e0cace;
 }
-header a:hover{
+.header a:hover{
   color: #bd040f;
 }
 .info{
@@ -188,32 +187,33 @@ header a:hover{
   background: #f11e58;
   background: -webkit-gradient(linear, left top, left bottom, from(#f83d7f), to(#f71348));
   background: -moz-linear-gradient(90deg, #f71348, #f83d7f);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',
+    startColorstr=#f83d7f, endColorstr=#f71348)
   border-bottom: 1px solid white;
 }
 .logo{
   height: 200px;
   width: 425px;
-  background:url("/img/logo.png") no-repeat top left;
+  background: url("/img/logo.png") no-repeat top left;
   float: left;
 }
 .text{
   height: 200px;
   width: 535px;
-  float: right;
+  float: left;
   color: #fff;
 }
 .text h1{
   color: #fff;
   font: 100px 'Lobster13Regular';
-  padding: 25px 0 0 50px;
+  line-height: 2em;
   text-align: left;
-  margin:0 0 -20px 0;
-}
-.text h1 a{
-  color: #fff;
+  margin:0 0 -55px 60px;
+  display: block;
 }
 .version{
-  margin:0 0 0 300px;
+  margin:-55px 0 0 300px;
+  display: block;
   font:20px
 }
 
@@ -222,32 +222,26 @@ h1, h2, h3 {
   color: #f11e58; 
 }
 
+h1 { font-size: 3em; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; margin-bottom: 1em; }
+h4 { font-size: 1.2em; margin-bottom: 1.25em; }
+h5 { font-size: 1em; margin-bottom: 1.5em; }
+h6 { font-size: 1em; }
+
+p { margin: 0 0 1.5em; }
+
 h1 a, h2 a, h3 a,
 h1 a:visited, h2 a:visited, h3 a:visited,
 h1 a:hover, h2 a:hover, h3 a:hover {
   color: #f11e58; 
 }
 
-h2{
-  font-size: 30px;
-  margin:0 0 8px 0;
-}
-
-h3{
-  font-size: 24px;
-  margin:0 0 6px 0;
-}
-
-p{
-  margin:0 0 10px 0;
-  font:15px;
-}
-
 #main {
   padding: 20px 30px;
 }
 
-footer {
+.footer {
   padding: 0 30px 20px 30px;
 }
 
