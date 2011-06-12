@@ -188,7 +188,8 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#f83d7f), to(#f71348));
   background: -moz-linear-gradient(90deg, #f71348, #f83d7f);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',
-    startColorstr=#f83d7f, endColorstr=#f71348)
+    startColorstr=#f83d7f, endColorstr=#f71348);
+  background: -o-linear-gradient(90deg, #f71348, #f83d7f);
   border-bottom: 1px solid white;
 }
 .logo{
